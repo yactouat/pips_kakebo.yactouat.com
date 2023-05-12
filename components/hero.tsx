@@ -35,6 +35,7 @@ export default function Hero() {
               : `By all means, feel free to use this template as a starting point for
             your next project !`}
           </p>
+          {/* TODO add CTA here */}
         </article>
         <Image
           priority
