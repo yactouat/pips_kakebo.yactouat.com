@@ -5,10 +5,10 @@ const STATIC_APP_DATA: AppData = {
   description: process.env.APP_DESCRIPTION ?? "",
   landingImages: {
     hero: {
-      alt: "A military command center",
+      alt: "A money vault",
       src: `https://cdn.jsdelivr.net/gh/yactouat/pips_theme_${
         process.env.APP_THEME ?? ""
-      }@master/images/pips_command_center.jpg`,
+      }@master/images/money_vault.jpg`,
     },
   },
   legalInfo: {
@@ -18,13 +18,13 @@ const STATIC_APP_DATA: AppData = {
     name: process.env.APP_TITLE ?? "",
     postalCode: "67000",
   },
-  mainHeadingHighlightedExpression: "Control",
-  mainHeadingText: "Control all your digital life from one place...",
+  mainHeadingHighlightedExpression: "for real",
+  mainHeadingText: "Save money for real this time...",
   navLinks: [],
   mainHeadingSubText1:
-    "Tired of switching between apps to manage your online presence and accounts?",
+    "Tired of watching your money melt away?",
   mainHeadingSubText2:
-    "The PIPS (Portable Integrated Personal System) will integrate your life !",
+    "This virtual kakebo will help you improve the money side of your life !",
   theme: process.env.APP_THEME ?? "",
   themeColor: process.env.APP_THEME_COLOR ?? "",
   title: process.env.APP_TITLE ?? "",
