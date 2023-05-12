@@ -8,7 +8,7 @@ const STATIC_APP_DATA: AppData = {
       alt: "A money vault",
       src: `https://cdn.jsdelivr.net/gh/yactouat/pips_theme_${
         process.env.APP_THEME ?? ""
-      }@master/images/money_vault.jpg`,
+      }@master/images/save_money.jpeg`,
     },
   },
   legalInfo: {
