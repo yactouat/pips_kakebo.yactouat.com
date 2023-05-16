@@ -55,13 +55,6 @@ const Header = ({ page }: HeaderProps) => {
             <AppNavLinks links={appData!.navLinks} />
           </nav>
         </div>
-        <Link
-          href="https://github.com/yactouat?tab=repositories&q=pips&type=&language=&sort=name"
-          className="hidden lg:block absolute top-1 right-2"
-          target="_blank"
-        >
-          <GitHubIcon />
-        </Link>
         {userProfile && page && page != "profile" && (
           <Link href="/profile" className="hidden lg:block">
             <ProfileIcon />
