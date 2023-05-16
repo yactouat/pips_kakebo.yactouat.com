@@ -4,7 +4,7 @@ import AppDataContext from "@/app-state/app-data/app-data-context";
 import ButtonProps from "./ButtonProps";
 import styles from "./button.module.css";
 
-const Button = ({ clickHandler, danger, submit, text }: ButtonProps) => {
+const Button = ({ classesString, clickHandler, danger, submit, text }: ButtonProps) => {
   const { data: appData } = useContext(AppDataContext);
 
   return (
@@ -18,7 +18,7 @@ const Button = ({ clickHandler, danger, submit, text }: ButtonProps) => {
         appData!.theme
       }-primary-interactive text-template-dneutral p-2  ${styles.button} ${
         danger ? styles.dangerBtn : ""
-      }`}
+      } ${classesString ? classesString : ""}`}
       type={submit ? "submit" : "button"}
     >
       {text}

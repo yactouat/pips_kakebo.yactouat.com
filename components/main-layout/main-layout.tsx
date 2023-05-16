@@ -4,7 +4,6 @@ import { useContext } from "react";
 import AppFeedbackContext from "@/app-state/app-feedback/app-feedback-context";
 import Footer from "../footer";
 import Header from "../header/header";
-import Hero from "../hero";
 import MainLayoutProps from "./MainLayoutProps";
 import Modal from "../modal/modal";
 import styles from "./main-layout.module.css";
@@ -35,7 +34,6 @@ export default function MainLayout({
       </Head>
       <Header page={page} />
       <main className="max-w-4xl mx-auto min-h-screen">
-        {page && page == "home" && <Hero />}
         {children}
       </main>
       <Footer />

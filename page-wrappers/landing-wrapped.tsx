@@ -9,6 +9,7 @@ import Hr from "@/components/hr";
 import MainLayout from "@/components/main-layout/main-layout";
 import Testimonial from "@/components/testimonial/testimonial";
 import UserProfileContext from "@/app-state/user-profile/user-profile-context";
+import Hero from "@/components/hero";
 
 const LandingWrapped = () => {
   const { data, setAppData } = useContext(AppDataContext);
@@ -31,6 +32,8 @@ const LandingWrapped = () => {
         <meta property="og:url" content={data!.url} />
         <meta name="description" content={data!.description} />
       </Head>
+
+      <Hero />
 
       {data!.pricingPlans && (
         <>

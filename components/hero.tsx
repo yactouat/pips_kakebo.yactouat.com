@@ -1,10 +1,18 @@
 import Image from "next/image";
 import { useContext } from "react";
+import { useRouter } from "next/router";
 
 import AppDataContext from "@/app-state/app-data/app-data-context";
+import Button from "./button/button";
 
 export default function Hero() {
   const { data: appData } = useContext(AppDataContext);
+
+  const router = useRouter();
+
+  const handleCTAClick = () => {
+    router.push("/so-month");
+  };
 
   return (
     <>
@@ -35,7 +43,13 @@ export default function Hero() {
               : `By all means, feel free to use this template as a starting point for
             your next project !`}
           </p>
+
+          <Button text="Start Saving Money 💰" classesString="mt-4" clickHandler={handleCTAClick}/>
           {/* TODO add CTA here */}
+          {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Call to Action
+          </button> */}
+
         </article>
         <Image
           priority
