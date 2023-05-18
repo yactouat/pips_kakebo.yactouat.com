@@ -1,11 +1,11 @@
-<mxfile host="Electron" modified="2023-05-16T06:04:59.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="ugNGCelcwQZ7nkeO9Ukb" version="21.2.8" type="device">
+<mxfile host="Electron" modified="2023-05-18T15:37:45.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="chr1CP_d3mc40Txyd1Mz" version="21.2.8" type="device">
   <diagram name="Page-1" id="NoCxAhey6gdjr6q5JVB9">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="viXMbbBj0Cj2xCmzuDsS-1" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="114" y="90" width="616" height="1080" as="geometry" />
+          <mxGeometry x="114" y="90" width="616" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="viXMbbBj0Cj2xCmzuDsS-11" value="invite account manager" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
           <mxGeometry x="16" y="30" width="134" height="80" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry x="16" y="540" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="viXMbbBj0Cj2xCmzuDsS-55" value="set desired rate for a given expense" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
-          <mxGeometry x="176" y="540" width="134" height="80" as="geometry" />
+          <mxGeometry x="166" y="530" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="viXMbbBj0Cj2xCmzuDsS-57" value="compare offerings for a given expense" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
           <mxGeometry x="326" y="540" width="134" height="80" as="geometry" />
@@ -83,10 +83,10 @@
           <mxGeometry x="16" y="650" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="viXMbbBj0Cj2xCmzuDsS-60" value="bad expense post mortem" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
-          <mxGeometry x="176" y="650" width="134" height="80" as="geometry" />
+          <mxGeometry x="166" y="640" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="viXMbbBj0Cj2xCmzuDsS-61" value="bad expense post mortem" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
-          <mxGeometry x="332" y="650" width="134" height="80" as="geometry" />
+          <mxGeometry x="326" y="650" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cqvKQBKsSfuc3WfX1_7b-1" value="see annual punctual &lt;br&gt;expenses report" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
           <mxGeometry x="476" y="650" width="134" height="80" as="geometry" />
@@ -95,34 +95,40 @@
           <mxGeometry x="16" y="760" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cqvKQBKsSfuc3WfX1_7b-5" value="see annual fixed expenses report" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
-          <mxGeometry x="176" y="760" width="134" height="80" as="geometry" />
+          <mxGeometry x="166" y="760" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cqvKQBKsSfuc3WfX1_7b-7" value="see annual paid taxes report" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
           <mxGeometry x="326" y="760" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cqvKQBKsSfuc3WfX1_7b-9" value="see annual savings report" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
-          <mxGeometry x="466" y="760" width="134" height="80" as="geometry" />
+          <mxGeometry x="476" y="760" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cqvKQBKsSfuc3WfX1_7b-11" value="track debts" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
           <mxGeometry x="16" y="850" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QWbqs0dP-nniWicZrUFR-1" value="see avg of an expense category/label for a given time frame" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
-          <mxGeometry x="176" y="850" width="134" height="80" as="geometry" />
+          <mxGeometry x="166" y="860" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QWbqs0dP-nniWicZrUFR-2" value="plan future known expenses" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
           <mxGeometry x="326" y="850" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="coCUdXWiDwFQQTuaxmBG-1" value="see available money for the week" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
-          <mxGeometry x="466" y="850" width="134" height="80" as="geometry" />
+          <mxGeometry x="476" y="860" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uxNnKJ0_HsT0NQXPC0Wo-2" value="set emergency fund goal" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
           <mxGeometry x="16" y="960" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Zw6b2eBSrAPllGsQIf47-1" value="calculate compound interest for a given account" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
-          <mxGeometry x="176" y="960" width="134" height="80" as="geometry" />
+          <mxGeometry x="166" y="960" width="134" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="l6Cwxsk6EpYvJsa31xpW-1" value="see financial priorities" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="viXMbbBj0Cj2xCmzuDsS-1">
+        <mxCell id="l6Cwxsk6EpYvJsa31xpW-1" value="see financial priorities" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
           <mxGeometry x="326" y="960" width="134" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-Ye7WMQZW_RI2s33AELE-1" value="set objective to beat the inflation" style="ellipse;whiteSpace=wrap;html=1;" parent="viXMbbBj0Cj2xCmzuDsS-1" vertex="1">
+          <mxGeometry x="476" y="960" width="134" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rrKrHgLIHBjaJKzVDxuL-1" value="see evolution of an expense over a given time span in percentage" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="viXMbbBj0Cj2xCmzuDsS-1">
+          <mxGeometry x="16" y="1079" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="viXMbbBj0Cj2xCmzuDsS-3" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;u&gt;kakebo.yactouat.com&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="304" y="60" width="220" height="30" as="geometry" />
